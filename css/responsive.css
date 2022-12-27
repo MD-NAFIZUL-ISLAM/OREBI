@@ -1,0 +1,958 @@
+@media (min-width: 320px) and (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
+
+    .buttons {
+        font-size: 12px;
+        height: 40px;
+        margin-top: 15px;
+        width: 85px;
+    }
+
+    .heading h2 {
+        font-size: 27px;
+        line-height: 27px;
+        margin-bottom: 27px;
+    }
+
+    /* =================
+      common css ends
+    =================== */
+
+    /* =================
+       nav part start
+    =================== */
+    #main_manu li {
+        text-align: right;
+        border-bottom: 2px solid rgba(88, 85, 85, 0.733);
+    }
+
+    #main_manu li:last-child {
+        border-bottom: 2px solid transparent;
+    }
+
+    #main_manu .navbar-collapse {
+        position: absolute;
+        top: 58px;
+        right: 0px;
+        width: 180px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        background-color: #f3f3f3;
+        z-index: 11;
+        padding: 0 20px;
+    }
+
+    #main_manu li a {
+        color: #262626;
+        font-family: dm_bd;
+    }
+
+    /* =================
+       nav part end
+    =================== */
+
+    /* =================
+    search_bar part start
+    =================== */
+
+    #search_bar .left {
+        width: 17%;
+    }
+
+    #search_bar .left p {
+        font-size: 10px;
+    }
+
+    #search_bar .input_field {
+        width: 60%;
+    }
+
+    #search_bar .input_field .src {
+        width: 100%;
+    }
+
+    #search_bar .right {
+        width: 20%;
+        text-align: right;
+    }
+
+    #search_bar .right a {
+        margin: 0;
+    }
+
+    #search_bar .right i {
+        margin: 0;
+    }
+
+    /* =================
+    search_bar part ends
+    =================== */
+    /* =================
+      bannar part start
+    =================== */
+    #bannar .main {
+        padding: 50px 0;
+    }
+
+    #bannar h1 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #bannar .left {
+        width: 95%;
+        margin-left: 35px;
+    }
+
+    #bannar .right {
+        width: 5%;
+    }
+
+    #bannar p {
+        font-size: 11px;
+        line-height: 2px;
+        color: black;
+    }
+
+    #bannar p span {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    /* =================
+      bannar part ends
+    =================== */
+    /* =================
+      delivary part start
+    =================== */
+    #delivary p span {
+        font-size: 16px;
+    }
+
+    #delivary p {
+        font-size: 12px;
+    }
+
+    /* =================
+      delivary part ends
+    =================== */
+    /* =================
+      portfolio part start
+    =================== */
+    #portfolio .main {
+        display: block !important;
+    }
+
+    #portfolio .left {
+        padding: 30px 35px 22px 24px;
+        margin-bottom: 25px;
+    }
+
+    #portfolio .text h3 {
+        font-size: 22px;
+        line-height: 5px;
+        margin-bottom: 15px;
+    }
+
+    #portfolio .text p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    #portfolio .top {
+        padding: 30px 35px 22px 24px;
+    }
+
+    #portfolio .bottom {
+        padding: 30px 18px 22px 24px;
+    }
+
+    /* =================
+      portfolio part ends
+    =================== */
+    /* =================
+      arrival part start
+    =================== */
+    #arrival {
+        padding: 20px 0;
+    }
+
+    #arrival .item {
+        width: 100% !important;
+    }
+
+    #arrival .slick-arrow {
+        height: 40px;
+        width: 40px;
+    }
+
+    #arrival .slick-next {
+        right: 0px;
+    }
+
+    #arrival .item .hover_box a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /* =================
+      arrival part end
+    =================== */
+    /* =================
+      bestseller part start
+    =================== */
+    #bestseller {
+        padding: 20px 0;
+    }
+
+    #bestseller .product {
+        display: block !important;
+    }
+
+    #bestseller .item {
+        height: 430px;
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    /* =================
+      bestseller part end
+    =================== */
+    /* =================
+      phone part start
+    =================== */
+    #phone .main {
+        padding: 20px 0;
+    }
+
+    #phone .right .text h3 {
+        font-size: 22px;
+        line-height: 23px;
+        margin-bottom: 16px;
+    }
+
+    #phone .right .text p {
+        font-size: 12px;
+        line-height: 25px;
+        margin-bottom: 18px;
+    }
+
+    /* =================
+      phone part end
+    =================== */
+    /* =================
+      offers part start
+    =================== */
+    #offers {
+        padding: 45px 0;
+    }
+
+    #offers .product {
+        display: block !important;
+    }
+
+    #offers .item {
+        height: 430px;
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    /* =================
+      offers part end
+    =================== */
+    /* =================
+      footer part start
+    =================== */
+    #footer .address {
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    #footer .image {
+        margin-top: 30px;
+    }
+
+    #footer .icon_link {
+        text-align: center;
+    }
+
+    #footer .icon_link a {
+        color: #262626;
+        margin: 20px 5px 0 5px;
+    }
+
+    #footer .text p {
+        font-size: 10px;
+        line-height: 23px;
+        margin-top: 25px;
+    }
+
+    /* =================
+      footer part end
+    =================== */
+    /* =================
+      headline part start
+    =================== */
+    #headline .main {
+        padding: 30px 0;
+    }
+
+    #headline .main h2 {
+        font-size: 30px;
+        line-height: 49px;
+    }
+
+    /* =================
+      headline part end
+    =================== */
+    /* =================
+      about part start
+    =================== */
+    #about .img {
+        height: 270px;
+    }
+
+    #about .text p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    #about .box {
+        margin: 30px 0;
+    }
+
+    #about .box h4 {
+        font-size: 20px;
+    }
+
+    #about .box p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    /* =================
+      about part end
+    =================== */
+    /* =================
+      contacts part start
+    =================== */
+    #contacts .map iframe {
+        width: 100%;
+    }
+    /* =================
+      contacts part start
+    =================== */
+    #login h3 {
+        font-size: 26px;
+        line-height: 10px;
+        margin-bottom: 22px;
+    }
+
+    #login p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    #signup p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 100%;
+    }
+
+    #signup .text {
+        margin-bottom: 30px;
+    }
+
+    #signup h3 {
+        font-size: 26px;
+        line-height: 39px;
+        margin-bottom: 20px;
+    }
+
+    #signup .chk_lvl {
+        font-size: 13px;
+    }
+
+    #signup .form {
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    /* =================
+       nav part start
+    =================== */
+    #main_manu li {
+        text-align: center;
+    }
+
+    #main_manu .navbar-collapse {
+        position: absolute;
+        top: 58px;
+        right: 0px;
+        width: 250px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        background-color: #f3f3f3;
+        z-index: 11;
+        border: 2px solid black;
+    }
+
+    #main_manu li a {
+        color: #262626;
+        font-family: dm_bd;
+    }
+
+    /* =================
+       nav part end
+    =================== */
+
+    /* =================
+    search_bar part start
+    =================== */
+
+    #search_bar .left {
+        width: 17%;
+    }
+
+    #search_bar .left p {
+        font-size: 10px;
+    }
+
+    #search_bar .input_field {
+        width: 60%;
+    }
+
+    #search_bar .input_field .src {
+        width: 100%;
+    }
+
+    #search_bar .right {
+        width: 20%;
+        text-align: right;
+    }
+
+    #search_bar .right a {
+        margin: 0;
+    }
+
+    #search_bar .right i {
+        margin: 0;
+    }
+
+    /* =================
+    search_bar part ends
+    =================== */
+    /* =================
+      bannar part start
+    =================== */
+    #bannar .main {
+        padding: 50px 0;
+    }
+
+    #bannar h1 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #bannar .left {
+        width: 95%;
+        margin-left: 35px;
+    }
+
+    #bannar .right {
+        width: 5%;
+    }
+
+    #bannar p {
+        font-size: 11px;
+        line-height: 2px;
+        color: black;
+    }
+
+    #bannar p span {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    /* =================
+      bannar part ends
+    =================== */
+    /* =================
+      portfolio part start
+    =================== */
+    #portfolio .main {
+        display: block !important;
+    }
+
+    #portfolio .left {
+        padding: 40px 35px 32px 24px;
+        margin-bottom: 25px;
+    }
+
+    #portfolio .text h3 {
+        font-size: 22px;
+        line-height: 5px;
+        margin-bottom: 15px;
+    }
+
+    #portfolio .text p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    #portfolio .top {
+        padding: 40px 35px 32px 24px;
+    }
+
+    #portfolio .bottom {
+        padding: 40px 18px 32px 24px;
+    }
+
+    /* =================
+      portfolio part ends
+    =================== */
+
+    /* =================
+      arrival part start
+    =================== */
+    #arrival {
+        padding: 60px 0;
+    }
+
+    /* =================
+      arrival part ends
+    =================== */
+
+    /* =================
+      bestseller part start
+    =================== */
+    #bestseller {
+        padding: 20px 0;
+    }
+
+    /* =================
+      bestseller part ends
+    =================== */
+
+    #phone .main {
+        padding: 20px 0;
+    }
+
+    #phone .right .text h3 {
+        font-size: 22px;
+        line-height: 23px;
+        margin-bottom: 16px;
+    }
+
+    #phone .right .text p {
+        font-size: 12px;
+        line-height: 25px;
+        margin-bottom: 18px;
+    }
+
+    #footer .address {
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    #footer .image {
+        margin-top: 30px;
+    }
+
+    #footer .icon_link {
+        text-align: center;
+    }
+
+    #footer .icon_link a {
+        color: #262626;
+        margin: 20px 5px 0 5px;
+    }
+
+    #footer .text p {
+        font-size: 10px;
+        line-height: 23px;
+        margin-top: 25px;
+    }
+
+    #about .img {
+        height: 330px;
+        margin-bottom: 50px;
+    }
+
+    #about .text p {
+        font-family: dm_rg;
+        font-size: 26px;
+        color: #262626;
+    }
+
+    #about .box {
+        margin: 40px 0;
+    }
+
+    #contacts .map iframe {
+        width: 100%;
+    }
+
+    #login p {
+        width: 100%;
+    }
+
+    #signup p {
+        font-size: 16px;
+        line-height: 22px;
+        width: 100%;
+    }
+
+    #signup .text {
+        margin-bottom: 30px;
+    }
+
+    #signup h3 {
+        font-size: 30px;
+        line-height: 39px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+
+    /* =================
+       nav part start
+    =================== */
+    #main_manu li {
+        text-align: right;
+        border-bottom: 2px solid rgba(88, 85, 85, 0.733);
+    }
+
+    #main_manu li:last-child {
+        border-bottom: 2px solid transparent;
+    }
+
+    #main_manu .navbar-collapse {
+        position: absolute;
+        top: 58px;
+        right: 0px;
+        width: 180px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        background-color: #f3f3f3;
+        z-index: 11;
+        padding: 0 20px;
+    }
+
+    #main_manu li a {
+        color: #262626;
+        font-family: dm_bd;
+    }
+
+    /* =================
+       nav part end
+    =================== */
+    /* =================
+    search_bar part start
+    =================== */
+
+    #search_bar .left {
+        width: 17%;
+    }
+
+    #search_bar .left p {
+        font-size: 12px;
+    }
+
+    #search_bar .input_field {
+        width: 60%;
+    }
+
+    #search_bar .input_field .src {
+        width: 100%;
+    }
+
+    #search_bar .right {
+        width: 20%;
+        text-align: right;
+    }
+
+    #search_bar .right a {
+        margin: 0;
+    }
+
+    #search_bar .right i {
+        margin: 0;
+    }
+
+    /* =================
+    search_bar part ends
+    =================== */
+    /* =================
+      bannar part start
+    =================== */
+    #bannar .main {
+        padding: 50px 0;
+    }
+
+    #bannar h1 {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #bannar .left {
+        width: 95%;
+        margin-left: 35px;
+    }
+
+    #bannar .right {
+        width: 5%;
+    }
+
+    #bannar p {
+        font-size: 15px;
+        line-height: 2px;
+        color: black;
+    }
+
+    #bannar p span {
+        font-size: 26px;
+        line-height: 25px;
+    }
+
+    /* =================
+      bannar part ends
+    =================== */
+    /* =================
+      portfolio part start
+    =================== */
+    #portfolio .main {
+        display: block !important;
+    }
+
+    #portfolio .left {
+        padding: 80px 35px 42px 24px;
+        margin-bottom: 25px;
+    }
+
+    #portfolio .text h3 {
+        font-size: 22px;
+        line-height: 5px;
+        margin-bottom: 15px;
+    }
+
+    #portfolio .text p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    #portfolio .top {
+        padding: 80px 35px 42px 24px;
+    }
+
+    #portfolio .bottom {
+        padding: 80px 18px 42px 24px;
+    }
+
+    /* =================
+      portfolio part ends
+    =================== */
+    #arrival {
+        padding: 50px 0;
+    }
+
+    #bestseller {
+        padding: 50px 0;
+    }
+
+    #phone .main {
+        padding: 20px 0;
+    }
+
+    #phone .right .text h3 {
+        font-size: 22px;
+        line-height: 23px;
+        margin-bottom: 16px;
+    }
+
+    #phone .right .text p {
+        font-size: 12px;
+        line-height: 25px;
+        margin-bottom: 18px;
+    }
+
+    #offers {
+        padding: 50px 0;
+    }
+
+    #footer .address {
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    #footer .image {
+        margin-top: 30px;
+    }
+
+    #footer .icon_link {
+        text-align: center;
+    }
+
+    #footer .icon_link a {
+        color: #262626;
+        margin: 20px 5px 0 5px;
+    }
+
+    #footer .text p {
+        font-size: 10px;
+        line-height: 23px;
+        margin-top: 25px;
+    }
+
+    #about .img {
+        height: 420px;
+    }
+
+    #about .text p {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    #about .box {
+        margin: 30px 0;
+    }
+
+    #contacts .map iframe {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 100%;
+    }
+
+    /* =================
+      bannar part start
+    =================== */
+    #bannar .main {
+        padding: 80px 0;
+    }
+
+    #bannar h1 {
+        font-size: 32px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #bannar .left {
+        width: 95%;
+        margin-left: 40px;
+    }
+
+    #bannar .right {
+        width: 5%;
+    }
+
+    #bannar p {
+        font-size: 18px;
+        line-height: 2px;
+        color: black;
+    }
+
+    #bannar p span {
+        font-size: 29px;
+        line-height: 25px;
+    }
+
+    /* =================
+      bannar part ends
+    =================== */
+    /* =================
+      portfolio part start
+    =================== */
+    #portfolio .main {
+        display: block !important;
+    }
+
+    #portfolio .left {
+        padding: 120px 35px 42px 24px;
+        margin-bottom: 25px;
+    }
+
+    #portfolio .text h3 {
+        font-size: 26px;
+        line-height: 10px;
+        margin-bottom: 15px;
+    }
+
+    #portfolio .text p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    #portfolio .top {
+        padding: 120px 35px 42px 24px;
+    }
+
+    #portfolio .bottom {
+        padding: 120px 18px 42px 24px;
+    }
+
+    /* =================
+      portfolio part ends
+    =================== */
+    #arrival .slick-arrow {
+        height: 54px;
+        width: 54px;
+    }
+
+    #arrival .slick-prev {
+        left: -20px;
+    }
+
+    #arrival .slick-next {
+        right: -10px;
+    }
+
+    #contacts .map iframe {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #portfolio .left {
+        padding: 375px 180px 62px 64px;
+    }
+
+    #portfolio .top {
+        padding: 54px 205px 55px 50px;
+    }
+
+    #portfolio .bottom {
+        padding: 54px 255px 65px 50px;
+    }
+
+    #contacts .map iframe {
+        width: 100%;
+    }
+}
